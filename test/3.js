@@ -5,7 +5,7 @@ var so1 = [];
 var so2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 console.log(sv1,sv2,so1,so2);
 // truy xuất phần tủ cua mảng
-
+// thêm nay
 console.log(sv2[0]); // Lan
 console.log(so2[5]); // 6
 console.log(so2.length);
