@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var so = parseInt(window.prompt("Nhập Số"));
+        var check = true;
+        if (so <= 1) {
+            check = false
+        } else if (so == 2) {
+            check = true;
+        } else {
+            for (let i = 2; i < so; i++) {
+                if (so % i == 0) {
+                    check = false;
+                    break;
+                }
+
+            }
+        }
+        if (check) {
+            document.write(so + ":Là số nguyên tố");
+        } else {
+            document.write(so + ":Không phải là số nguyên tố");
+        }
+    </script>
+</body>
+
+</html>
